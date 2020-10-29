@@ -1,0 +1,423 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/*selectores de etiqueta
+nav {
+    color: white;
+    background: red
+}
+/*selectores de id
+#contact{ 
+    background: gray
+}
+nav ul li a {
+    background: greenyellow
+}
+/*selectores de clase
+.Header{
+    background: orange;
+}
+/*selectore hijos
+ul>li{
+    font-size: 
+}
+/*selectores de atributos
+a[href*="twitter"]{
+    background: greenyellow;
+}
+.MainMenu-item{
+    display: inline-block;
+}
+*/
+
+
+/*selectores de etiqueta
+nav {
+    color: white;
+    background: black;
+}
+selectores de clases
+.Header{
+    background: orange;
+}
+selectores descendentes
+nav ul li a{
+    background: orange;
+}
+selectores hijos
+ul>li {
+    font-size: gray;
+}
+selectores de id
+#contact{
+    background: gray;
+}
+selectores adyacentes
+selectores de atributos
+a[href*="instagram"] {
+    background: greenyellow;
+}
+selectores globales*/
+
+
+/*.josbs-item{
+display: inline-block;
+}
+
+.header{
+position: absolute;
+top: 20px;
+left: 20px;
+background: gray;
+display: inline-block;
+}
+
+.profile{
+background: pink;
+display: inline-block;
+position: relative;
+top: 20px;
+}*/
+
+
+/*.meinMenu{
+position: fixed;
+}*/
+
+
+/*pseudoclases
+ul li:first-child{
+    background: red;
+}
+ul li:last-child{
+    background: gray;
+}
+ul li:nth-child(odd){
+    background: blue;
+}
+ul li:nth-child(even){
+    background: yellowgreen;
+}
+ul li:nth-child(3){
+    background: blue;
+}*/
+
+
+/*.mainMenu{
+    background: lightgray;
+}
+
+ .mainMenu:before{
+    content: "contenido antes del selector";
+}
+.mainMenu:after{
+    content: "contenido despues del selector";
+}
+
+.mainMenu:before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: red;
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 20px;
+    left: 500px;
+}
+.mainMenu:after{
+    content: "";
+}*/
+/*utilies  */
+/*
+
+.MainMenu{
+
+    text-align: center;
+    background: #000000;
+    
+    
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 3.75em;
+    line-height: 3.75em;
+}
+.MainMenu-list{
+    margin: 0;
+}
+.MainMenu-item{
+    display: inline-block;
+
+}
+.MainMenu-link{
+    color: aqua;
+    margin: 1.5em;
+    text-decoration: none;
+}
+/* TEST RESPONSIVE*/
+/*
+@media screen and (max-width:800px){
+.MainMenu{ 
+    background:#e6e4df;
+  
+}
+.MainMenu-link{
+    color: #000000;
+}
+}
+
+/*navbar*/
+/*Header*/
+/*
+.Header{
+     text-align: center;
+     background-image: url(../image/ext.jpeg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 30em;
+     text-align: center;
+   
+}
+.Header-imageContainer{
+    margin-top: 0;
+    padding-top: 5em;
+
+}
+
+.Header-image{
+border-radius: 50%;
+height: 10em;
+width: 10em;
+}
+.Header-fig{
+    margin: 0;
+}
+.Header-figa{
+    
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+}
+.Header-figp{
+    font-size: 2em; 
+    margin: 0.5em;  
+}
+.header-link{
+    font-size: 3em;
+    font-weight: bold;
+
+
+}
+/*utilities*/
+/*
+U.title{
+    color: cyan;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: cyan 2px datext-alignshed;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    margin-top: 0em;
+}
+
+    .profile{
+        text-align: center;
+        display:block; 
+    }
+    .Profile-title{
+        padding-top: 0.5em;
+        color: rgb(74, 228, 228);;
+        margin: 0;
+       
+    
+    }
+    .Profile-description{
+        color: #ffffff;
+        font-weight: lighter;
+        margin-bottom: 1.5em;
+    }
+    .profile-link{
+        border-radius: 2em;
+        color: white;
+        text-decoration: none;
+        
+        
+    }
+    .profile.description
+    .profile.profile-link:nth-of-type(1){
+        background: #26BDff;
+    }
+    .profile.profile-link:nth-of-type(2){
+        background: #266BBE;
+    }
+    .profile.profile-link:nth-of-type(3){
+        background: #3F729B;
+    }
+    /*responsive*/
+    /*
+    @media screen and (max-width:353px){
+        .profile-link{
+            display: block;
+        }
+    }
+
+section a:nth-of-type(2){
+    background: #0339e9;
+    border-color:#0000;
+    color: #00ff00;
+}
+
+section a:nth-of-type(1){
+    background: #f0e227;
+    border-color: #0000;
+    color: #4705ff;
+}
+
+section a:nth-of-type(3){
+    background: #e90382;
+    border-color: #000000;
+    color: #f59404;
+}
+
+section a:nth-of-type(2){
+    background: #03e95b;
+
+}
+
+section a:nth-of-type(3){
+    background: #f59404;
+}
+
+/*section  jobs __________________________________________________________________________  */
+
+    /*end profile*/
+    /*style fon jobs*/
+    /*
+    .Jobs{
+        text-align: center;
+        display: inline-block;
+    }
+    .Jobs-imageContainer{
+        color: #ffffff;
+        background: #000000;
+    }
+    .Jobs-item{
+        display: inline-block;
+        width: 50%;
+    }
+    
+    .Jobs-description{
+    font-size: 1.1em;
+    font-style: italic;
+
+    }
+    /* TEST RESPONSIVE*/
+    /*
+@media screen and (max-width:353px){
+    .Jobs-image{ 
+        display: block;
+       
+      
+    }
+    /* end style jobs*/
+    /*footer*/
+    /*
+.footer{
+    background-image: url(//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3uGFBQxYs0_zTghbCe_q8uzVsKwP5NMATWbf0D59fh-RWOkRK&s);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height:20em;
+}
+.footer-left{
+    display:inline-block;
+    width: 32em;
+    text-align: center;
+    vertical-align: top;
+}
+.footer-form{
+    display: inline-block;
+    display: block;
+    background: white;
+    border: none;
+    border-radius: 2em;
+    margin: 0 auto 1em;
+    padding: .5em;
+    margin-top: 2em;
+
+}
+.footer-forminput,.footer-textarea{
+    display: block;
+    background: white;
+    border: none;
+    border-radius: 2em;
+    margin: 0 auto 1em;
+    padding: .5em;
+
+}
+.footer-button{
+    display: block;
+    background-color: orange;
+
+    /* TEST RESPONSIVE*/
+    /*
+@media screen and (max-width:800px)
+
+.MainMenu{ 
+    background:#E6E4DF;
+}
+    border-radius: 1em;
+    border: none;
+    padding: 0.5em 1em;
+    color: white;
+}
+.Footer-title{
+    color: #ffffff;
+    font-weight: bold;
+    
+    }
+    .Footer-description{
+        color: #ffffff;
+        font-weight: normal;
+        
+        /* TEST RESPONSIVE*/
+        /*
+ @media screen and (max-width:800px)
+.MainMenu{ 
+    background:#E6E4DF;
+
+}
+}
+}
